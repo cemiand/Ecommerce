@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "./CartWidget";
 import { fade, makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -137,7 +138,8 @@ export default function NavBar() {
             <MailIcon />
           </Badge>
         </IconButton>
-        <p>Messages</p>
+        <p>Cart</p>
+        {/* <p>Messages</p> */}
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 11 new notifications" color="inherit">
@@ -193,7 +195,8 @@ export default function NavBar() {
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={0} color="secondary">
-                <MailIcon />
+                {/* ACA ESTA EL CartWidget !!! */}
+                <CartWidget />
               </Badge>
             </IconButton>
             <IconButton aria-label="show 17 new notifications" color="inherit">

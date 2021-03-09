@@ -1,0 +1,10 @@
+.centerContent {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
