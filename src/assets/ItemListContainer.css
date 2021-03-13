@@ -1,10 +1,10 @@
 .centerContent {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 p {
   font-size: 20px;
   border: 1px solid grey;
   border-radius: 2px;
+  display: inline-block;
 }
